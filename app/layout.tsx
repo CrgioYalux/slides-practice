@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { primary } from "@/app/ui/fonts";
+import GoToTop from "./ui/components/go-to-top";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={primary.className}>{children}</body>
+      <body className={primary.className}>
+        {children}
+        <GoToTop />
+      </body>
     </html>
   );
 }
