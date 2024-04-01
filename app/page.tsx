@@ -27,7 +27,7 @@ export default function Home() {
           width={294}
           height={310}
           />
-          <button className={`${secondary.className} mt-6 px-8 py-4 flex w-full max-w-80 gap-2.5 items-center justify-center bg-black text-white font-bold rounded-xl md:mt-8 md:mr-auto md:w-max`}>
+          <button className={`${secondary.className} mt-6 px-8 py-4 flex w-full max-w-80 gap-2.5 items-center justify-center bg-black text-white font-bold rounded-xl md:mt-8 md:mr-auto md:w-max dark:bg-white dark:text-black`}>
           Get started <ArrowRight className="w-2.5 fill-current" />
           </button>
         </div>
