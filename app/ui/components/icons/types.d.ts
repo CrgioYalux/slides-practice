@@ -1,3 +1,3 @@
 type SVGComponentProps = {
-    className?: string;
+  className?: string;
 };
