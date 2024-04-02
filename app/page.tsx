@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex w-full flex-col items-center text-center md:items-start md:text-start">
           <a className="tracking-widest text-xs md:text-sm" href="#about">ABOUT — PERSONAL</a>
           <h1 className="mt-2.5 text-3xl font-medium md:text-4xl lg:text-5xl">
-          ¡Hello! <span className="font-bold whitespace-nowrap">I'm Angela Smith</span>
+          ¡Hello! <span className="font-bold whitespace-nowrap">{"I'm Angela Smith"}</span>
           </h1>
           <p className="hidden md:block mt-6">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
